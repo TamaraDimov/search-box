@@ -1,0 +1,13 @@
+<form style="text-align: center; margin: 20px 0;">
+  <p style="font-size: 18px; margin-bottom: 10px;">What article are you looking for</p>
+  <input style="padding: 8px; width: 200px; font-size: 14px;" class="input" placeholder="Search" type="text">
+  <button class="searchButton style-link " type="submit">Search</button>
+</form>
+
+<div style="text-align: center; margin-bottom: 20px">
+  <%= link_to 'Top 3 articles this week', articles_index_path, class: "style-link" %>
+</div>
+
+<div style="text-align: center;">
+  <%= link_to 'Articles that you searched for', articles_index_path, class: "style-link" %>
+</div>

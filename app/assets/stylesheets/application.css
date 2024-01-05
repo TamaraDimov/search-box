@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+.style-link {
+  margin-top: 50px;
+  padding: 8px 15px;
+  font-size: 14px;
+  background-color: #4ca7af;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
